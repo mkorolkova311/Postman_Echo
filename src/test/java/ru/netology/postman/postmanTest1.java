@@ -16,6 +16,6 @@ public class postmanTest1 {
             .then()
             .statusCode(200)
             .contentType("application/json")
-            .body("data", equalTo("some value"));
+            .body("data", equalTo("data"));
  }
 }
